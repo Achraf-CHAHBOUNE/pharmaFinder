@@ -4,7 +4,6 @@ import Logo from "../../Asset/images/logo.png";
 
 const Header = () => {
  
-
   return (
     <div>
       <header className="bg-white h-[90px] text-gray-800 py-4 border-b-2 shadow-lg">
