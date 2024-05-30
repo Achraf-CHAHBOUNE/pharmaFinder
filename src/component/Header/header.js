@@ -1,15 +1,18 @@
 import React from "react";
-import "./header.css";
+import Logo from "../../Asset/images/logo.png";
+
 
 const Header = () => {
  
 
   return (
     <div>
-      <header className="bg-white h-[90px] text-gray-800 py-4 border-b-2">
+      <header className="bg-white h-[90px] text-gray-800 py-4 border-b-2 shadow-lg">
         <div className="container mx-auto flex  items-center">
-          <h1 className="text-2xl font-bold">PharmaFind</h1>
-          <nav className="ml-96">
+          <div>
+            <img src= {Logo} alt="PharmaFinder" className="w-32 h-12" />
+          </div>
+          <nav className="ml-60">
             <ul className="flex gap-8 font-mono text-base font-bold">
 
               {window.location.pathname === "/" ? (
@@ -78,6 +81,8 @@ const Header = () => {
 
             </ul>
           </nav>
+
+
         </div>
       </header>
     </div>
