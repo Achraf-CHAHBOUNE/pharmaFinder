@@ -6,13 +6,13 @@ const Header = () => {
  
   return (
     <div>
-      <header className="bg-white h-[90px] text-gray-800 py-4 border-b-2 shadow-lg">
+      <header className="bg-white h-[100px] text-gray-800 py-4 border-b-2 shadow-lg">
         <div className="container mx-auto flex  items-center">
           <div>
-            <img src= {Logo} alt="PharmaFinder" className="w-32 h-12" />
+            <img src= {Logo} alt="PharmaFinder" className="w-40 h-20 " />
           </div>
           <nav className="ml-60">
-            <ul className="flex gap-8 font-mono text-base font-bold">
+            <ul className="flex gap-8 font-mono text-xl font-bold text-gray-400	">
 
               {window.location.pathname === "/" ? (
                 <li>
